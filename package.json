@@ -1,0 +1,13 @@
+{
+  "name": "eb-pipeline-demo",
+  "version": "1.0.0",
+  "description": "Sample app to practice GitHub -> Jenkins -> Elastic Beanstalk CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --ci"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2" },
+  "devDependencies": { "jest": "^29.7.0", "supertest": "^7.0.0" }
+}
