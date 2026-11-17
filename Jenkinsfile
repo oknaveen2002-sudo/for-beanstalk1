@@ -37,7 +37,7 @@ pipeline {
         }
 
         stage('Deploy to Elastic Beanstalk') {
-            when { branch 'main' }   // Use a Multibranch Pipeline; remove this line for a plain Pipeline job
+          // Use a Multibranch Pipeline; remove this line for a plain Pipeline job
             steps {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',
                                   credentialsId: 'aws-creds']]) {
