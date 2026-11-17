@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    tools { nodejs 'node18' }   // Configure in Manage Jenkins > Tools (NodeJS plugin)
+    tools { nodejs 'node26' }   // Configure in Manage Jenkins > Tools (NodeJS plugin)
 
     triggers { githubPush() }   // Fires on GitHub webhook
 
