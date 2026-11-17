@@ -7,9 +7,9 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION = 'ap-south-1'
-        EB_APP             = 'eb-pipeline-demo'
-        EB_ENV             = 'eb-pipeline-demo-env'
-        S3_BUCKET          = 'your-eb-artifacts-bucket'   // <-- change me
+        EB_APP             = 'my-app'
+        EB_ENV             = 'My-app-env'
+        S3_BUCKET          = 'my-eb-deploy'   // <-- change me
         VERSION_LABEL      = "build-${BUILD_NUMBER}"
     }
 
