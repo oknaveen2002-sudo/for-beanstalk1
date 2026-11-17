@@ -34,7 +34,6 @@ git push -u origin main
 GitHub repo > Settings > Webhooks > Add:
 - Payload URL: `http://<jenkins-host>:8080/github-webhook/`
 - Content type: `application/json`, event: Just the push event
-- PIPELINE TEST 1.
 
 ## 6. Practice
 - Edit the message in `app.js`, push to `main`, watch Jenkins deploy it.
